@@ -1,0 +1,129 @@
+body{
+	//background-image: url("../images/cleaningkitchen.jpg");
+	color: black;  
+                  background-repeat: no-repeat;
+                  background-size: cover;
+                  background-color:rgb(230, 247, 255);
+}
+.box {
+	float: left;
+	width: 100%;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #fff;
+	margin-bottom: 30px;
+}
+.boxImg {
+	float: left;
+	width: 400px;
+	min-height: 400px;
+	max-height: 400px;
+}
+.box .para {
+	float:left;
+	width: 60%;
+	font-size: 28px;
+	margin-left: 30px;
+	text-align: justify;
+}
+.starter-template {
+	opacity: 1 !important;
+}
+
+.navbar-inverse .navbar-brand{
+	color: white;
+	font-size:40px;
+	font-family: cursive;
+}
+.navbar-header {
+	float: left;
+	padding: 15px;
+	text-align: center;
+	width: 100%;
+}
+.navbar-brand {float:none;}
+h1{
+	text-align: left;
+}
+h2{
+text-align:center;
+}
+#navbar{
+	background-color:rgb(0,204,255) ;
+	font-size: 18px;
+	font-family: "Calibri";
+	text-align: center;
+}
+#navbar a{
+	Color: white;
+}
+#headerTitle {
+	margin: 40px 20px;
+	text-align:center;
+	color: white;
+	padding: 0px;
+	background-color: rgb(0,204,255);
+}
+#header class""
+{
+	margin: 10px auto;
+	text-align: center;
+}
+img.contentImg{
+	width: 350px;
+	height: 350px;
+	margin: 10px 20px 20px;
+}
+
+p {
+	font-size: 26px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: justify;
+}
+p1{
+	font-size: 24px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+form {
+	margin: 20px;
+	border: 2px solid black;
+	padding: 30px;
+	clear: both;
+}
+button[type=submit] {
+	padding: 0 10px;
+	height: 29px;
+	font-size: 12px;
+	font-weight: bold;
+	color:black;
+	text-shadow:0 1px #4D1124;
+	border-width: 1px;
+	border-style: solid;
+	border-color:black;
+	border-radius: 7px 7px 7px 7px;
+	outline: none;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	background-color: rgb(0,204,255);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgb(230, 247, 255)), color-stop(100%, rgb(0,204,255)));
+	background-image: -webkit-linear-gradient(top, rgb(230, 247, 255), rgb(0,204,255));
+	background-image:-moz-linear-gradient(center top , rgb(230, 247, 255), rgb(0,204,255));
+	background-image: -ms-linear-gradient(top, rgb(230, 247, 255), rgb(0,204,255));
+	background-image: -o-linear-gradient(top, rgb(230, 247, 255), rgb(0,204,255));
+	background-image: linear-gradient(top, rgb(230, 247, 255), rgb(0,204,255));
+	-webkit-box-shadow:0 1px #888888 inset, 0 1px 2px #888888;
+	-moz-box-shadow:0 1px #888888 inset, 0 1px 2px #888888;
+	box-shadow:0 1px #888888 inset, 0 2px 3px #888888;
+}
+
+.left-space{
+	margin-left:60%;
+}
+
+span[aria-hidden="true"]{
+	float:left;
+	margin-top: 10px;
+}
