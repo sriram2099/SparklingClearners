@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
 <meta name="description" content="">
 <meta name="author" content="">
 <link rel="icon" href="../../favicon.ico">
-<title>Contact US - Starter Template for Bootstrap</title>
+<title>Home - Starter Template for Bootstrap</title>
 
 <!-- Bootstrap core CSS -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -51,8 +51,8 @@
       <ul class="nav navbar-nav navbar-right">
         <li class="" ><a href="index.html">Home</a></li>
         <li class=""><a href="about.html">About</a></li>
-        <li class="active"><a href="#contact">Contact</a></li>
-        <li class=""><a href="signin.html">SignIn</a></li>
+        <li class=""><a href="contact.html">Contact</a></li>
+        <li class="active"><a href="#signin">SignIn</a></li>
         <li class=""><a href="signup.html">SignUp</a></li>
       </ul>
     </div>
@@ -60,98 +60,60 @@
 </nav>
 </header>
 
-
 <div class="container">
+  <div class="starter-template">
+   <div class="container">
   <div class="starter-template">
     <div class="wrapper">
       <div id="header">
-        <H1>For any Queries </H1>
+        <H1 class="sign">Sign In </H1>
       </div>
-      <form action="insert.php" class="form-horizontal" role="form" data-toggle="validator" name="myForm"  method="post">
+	  <div class="signin">
+      <form action="signin.php" class="form-horizontal" role="form" data-toggle="validator" name="myForm"  method="post">
         <div class="form-group">
-          <label for="inputEmail3" class="col-lg-2 col-md-3 col-sm-3 control-label">First Name</label>
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <input type="text" class="form-control" name="firstName" id="fname" placeholder="First Name" onkeypress="iconRemove()" required>            
+          <label for="inputEmail3" class="col-sm-3 control-label">User Name</label>
+          <div class="col-sm-6">
+            <input type="text" class="form-control" name="username" id="fname" placeholder="User Name" onkeypress="iconRemove()" required>            
           </div>
           <span id="fnGif" aria-hidden="true"></span>
         </div>
         <div class="form-group">
-          <label for="inputEmail3" class="col-lg-2 col-md-3 col-sm-3 control-label">Last Name</label>
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <input type="text" class="form-control" name="lastName" id="lname" placeholder="Last Name"  onkeypress="iconRemove()" required>
+          <label for="inputEmail3" class="col-sm-3 control-label">Password</label>
+          <div class="col-sm-6">
+            <input type="password" class="form-control" name="password" id="pwd" placeholder="Password"  onkeypress="iconRemove()" required>
           </div>
             <span id="lnGif"  aria-hidden="true"></span>
-        </div>
+			</div>
         <div class="form-group">
-          <label for="inputEmail3" class="col-lg-2 col-md-3 col-sm-3 control-label">E-mail</label>
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <input type="text" class="form-control" name="email" id="email" placeholder="E-Mail"  onkeypress="iconRemove()" required>
-          </div>
-            <span id="lnGif"  aria-hidden="true"></span>
-        </div>
-        <div class="form-group">
-          <label for="inputEmail3" class="col-lg-2 col-md-3 col-sm-3 control-label">Street Address</label>
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <input type="text" class="form-control" placeholder="Street Address" id="sa" name="streetAddress" onkeypress="iconRemove()" required>
-          </div>
-            <span id="saGif"  aria-hidden="true"></span>
-        </div>
-        <div class="form-group">
-          <label for="inputEmail3" class="col-lg-2 col-md-3 col-sm-3 control-label">City</label>
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <input type="text" class="form-control" placeholder="City" name="City" id="c" onkeypress="iconRemove()" required>
-          </div>
-            <span id="cityGif"  aria-hidden="true"></span>
-        </div>
-        <div class="form-group">
-          <label for="inputEmail3" class="col-lg-2 col-md-3 col-sm-3 control-label">State</label>
-          <div class="col-lg-3 col-md-6 col-sm-6"> 
-          <input type="text" class="form-control" name="State" placeholder="State" id="s" onkeypress="iconRemove()"> 
-          </div>
-          <span id="stateGif" aria-hidden="true"></span>
-        </div>
-        <div class="form-group">
-          <label for="inputEmail3" class="col-lg-2 col-md-3 col-sm-3 control-label">Zip Code</label>
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <input type="number" class="form-control" name="ZipCode" placeholder="zipCode" id="zc" onkeypress="iconRemove()" required>
-          </div>
-            <span id="zipGif" aria-hidden="true"></span>
-        </div>
-        <div class="form-group">
-          <label for="inputEmail3" class="col-lg-2 col-md-3 col-sm-3 control-label">Message</label>
-          <div class="col-lg-6 col-md-6 col-sm-6">
-            <textarea rows="4" cols="50" class="form-control" name="txtArea" onkeypress="iconRemove()" id="a" placeholder="Message" required></textarea>
-          </div>
-            <span id="MGif"  aria-hidden="true"></span>
-        </div>
-        <div class="form-group">
-        <div class="col-lg-2 col-md-3 col-sm-3"></div>
-          <div class="col-sm-2">
-            <button type="submit" class="btn btn-default btn-primary" onclick="" >Submit</button>
+          <div class="col-sm-offset-3 col-sm-3">
+            <button type="submit" class="btn btn-default btn-primary left-space" onClick="validateForm()" >Submit</button>
           </div>
         </div>
       </form>
     </div>
+	</div>
   </div>
 </div>
-<!-- /.container --> 
-
+<br>
+ </div> 
+ <!-- /.container --> 
+<hr class="hr">
 <footer class="panel-footer">
     <div class="container">
-      <hr class="hr">
+      
         <section id="hours" class="col-sm-12">
           <span>Hours:</span><br>
           Sun-Thurs: 11:15am - 10:00pm<br>
           Fri: 11:15am - 2:30pm<br>
           Saturday Closed
-         <hr>
+          <hr>
         </section>
-        
+       
         <section id="address" class="col-sm-12">
           <span><p1>Email Address: <a href="mailto:sparklingcleaners@cleaners.com?Subject=Hello%20again">sparklingcleaners@cleaners.com</a></span><br>
           
           <p class="delivery">* Delivery area within 3-4 miles, with minimum order of $20 plus $3 charge for all deliveries.</p>
-          <hr >
+          <hr>
         </section>
         <br>
       
@@ -164,7 +126,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
 <!--<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>--> 
 <script src="js/bootstrap.min.js"></script> 
-<script src="js/myscript.js"></script> 
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug --> 
 <!--<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
 </body>

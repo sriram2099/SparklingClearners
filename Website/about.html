@@ -32,21 +32,34 @@
 </head>
 
 <body>
-<nav class="navbar navbar-inverse navbar-fixed-top" style="background-color:rgb(0,204,255);">
+<header>
+<nav id="header-nav" class="navbar navbar-default" style="background-color:rgb(0,204,255)";>
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-      <a class="navbar-brand" href="#">SPARKLING CLEANERS SERVICES</a> </div>
-    <div id="navbar" class="collapse navbar-collapse">
+            <div class="navbar-brand">
+              <a class="navbar-brand heading" href="#">SPARKLING CLEANERS SERVICES</a>
+          </div>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div> 
+        </div> 
+        <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="index.html">Home</a></li>
+        <li class="" ><a href="index.html">Home</a></li>
         <li class="active"><a href="#about">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li class=""><a href="contact.html">Contact</a></li>
+        <li class=""><a href="signin.html">SignIn</a></li>
+        <li class=""><a href="signup.html">SignUp</a></li>
       </ul>
     </div>
-    <!--/.nav-collapse --> 
-  </div>
+    
 </nav>
+</header>
+
 <br>
 <br>
 <div class="container">
@@ -55,22 +68,49 @@
 	 <p> Sparkling Cleaners Services Company is a full service home cleaning company. Our trained cleaning specialists will come to your home and perform a customized cleaning regimen based on your specific needs.  Our staff is well trained, courteous, efficient, and dedicated to providing the best experience possible to customers. The various cleaning services include cleaning the floor, <a href="https://www.google.com/#q=roof+cleaning">roofing cleaning</a>,windows, screens, hard water stain removals,<a href="https://www.google.com/#q=kitchen+cleaning">kitchen</a> etc. </p>  <br><br> 
     <!--<img src="images/1.jpg" class="contentImg">-->
     <div class= "box">
-    <img src="images/7.jpg" class="boxImg">
-    <p class="para">Sponges & Scrubbers are capable of handling a wide variety of cleaning jobs, such as removing stuck-on food from utensils, removing stubborn marks from drywall and wallpaper without chemicals or abrasives. <a href="mailto:HariDurga@Myfamily.com">HariDurga@Myfamily.com</a></p>
+    <div class="col-sm-6">
+    <img src="images/7.jpg" class="boxImg"></div>
+    <div class ="col-sm-6 overflow"><p class="para">Sponges & Scrubbers are capable of handling a wide variety of cleaning jobs, such as removing stuck-on food from utensils, removing stubborn marks from drywall and wallpaper without chemicals or abrasives. <a href="mailto:sparklingcleaners@cleaners.com">sparklingcleaners@cleaners.com</a></p></div>
     </div>
     <div class= "box">
-    <img src="images/8.jpg" class="boxImg">
-    <p class="para">Microfiber mops are used for cleaning laminated floors. They can be used for both dry dusting and wet mopping. You can rinse it in hot water and re-use it.  <a href="mailto:HariDurga@Myfamily.com">HariDurga@Myfamily.com</a></p>
+    <div class="col-sm-6">
+    <img src="images/8.jpg" class="boxImg"></div>
+    <div class="col-sm-6 overflow">
+    <p class="para">Microfiber mops are used for cleaning laminated floors. They can be used for both dry dusting and wet mopping. You can rinse it in hot water and re-use it.  <a href="mailto:sparklingcleaners@cleaners.com">sparklingcleaners@cleaners.com</a></p></div>
     </div>
-    <div class= "box">
-    <img src="images/5.jpg" class="boxImg">
-    <p class="para">Mop in bucket is more advantageous while cleaning open space, tight areas like toilets, patient rooms, class rooms etc. wet mop system is much better suited.  <a href="mailto:HariDurga@Myfamily.com">HariDurga@Myfamily.com</a></p>
+    <div class= "box1">
+    <div class="col-sm-6">
+    <img src="images/5.jpg" class="boxImg"></div>
+    <div class="col-sm-6 overflow">
+    <p class="para">Mop in bucket is more advantageous while cleaning open space, tight areas like toilets, patient rooms, class rooms etc. wet mop system is much better suited.  <a href="mailto:sparklingcleaners@cleaners.com">sparklingcleaners@cleaners.com</a></p></div>
     </div>
   
   </div>
 </div>
 <!-- /.container --> 
 
+<footer class="panel-footer">
+    <div class="container">
+      <hr class="hr">
+        <section id="hours" class="col-sm-12">
+          <span>Hours:</span><br>
+          Sun-Thurs: 11:15am - 10:00pm<br>
+          Fri: 11:15am - 2:30pm<br>
+          Saturday Closed
+         <hr> 
+        </section>
+        
+        <section id="address" class="col-sm-12">
+          <span><p1>Email Address: <a href="mailto:sparklingcleaners@cleaners.com?Subject=Hello%20again">sparklingcleaners@cleaners.com</a></span><br>
+          
+          <p class="delivery">* Delivery area within 3-4 miles, with minimum order of $20 plus $3 charge for all deliveries.</p>
+          <hr >
+        </section>
+        <br>
+      
+      <div class="text-center">&copy; Copyright Sparkling Cleaner's Company 2016</div>
+    </div>
+  </footer>
 <!-- Bootstrap core JavaScript
     ================================================== --> 
 <!-- Placed at the end of the document so the pages load faster --> 
